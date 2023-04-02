@@ -2,6 +2,12 @@
   <head>
     <title>Комплекс аппаратуры оперативно-командной связи</title>
     <link rel="stylesheet" href="style.css" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+    />
   </head>
   <meta
     http-equiv="Content-Type"
@@ -28,6 +34,11 @@
         </div>
       </div>
     </header>
+    <script defer>
+      Fancybox.bind("[data-fancybox]", {
+        // Your custom options
+      });
+    </script>
     <div class="wrapper">
       <main class="main">
         <div class="content">
@@ -267,10 +278,10 @@
                   <abbr title="Оперативно-командная связь">ОКС</abbr> – VCM.EXE,
                   для чего войдите в папку VC, затем в папку BIN.
                 </p>
-                <img src="2.1.jpg" class="center-img5" />
+                <a href="2.1.jpg" data-fancybox><img src="2.1.jpg" class="center-img5" /></a>
                 <h4>Рисунок 2.1 - Контекстное меню</h4>
                 <br />
-                <img src="2.2.jpg" class="center-img5" />
+                <a href="2.2.jpg" data-fancybox><img src="2.2.jpg" class="center-img5" /></a>
                 <h4>Рисунок 2.2 - Доступ к папке VC по сети</h4>
                 <br />
                 <p>

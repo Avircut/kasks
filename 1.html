@@ -2,6 +2,12 @@
   <head>
     <title>Комплекс аппаратуры оперативно-командной связи</title>
     <link rel="stylesheet" href="style.css" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+    />
   </head>
   <meta charset="utf-8" />
 
@@ -23,6 +29,11 @@
         </div>
       </div>
     </header>
+    <script defer>
+      Fancybox.bind("[data-fancybox]", {
+        // Your custom options
+      });
+    </script>
     <div class="wrapper">
       <main class="main">
         <div class="content">
@@ -106,12 +117,14 @@
                 </p>
 
                 <br />
-                <img src="p2.jpg" class="center-img" />
+                <a href="p2.jpg" data-fancybox="gallery"
+                  ><img src="p2.jpg" class="center-img"
+                /></a>
 
                 <h4>Рисунок 1.1 - Пульты связи оператора «Грань-ПС»</h4>
                 <br />
                 <p>Шкаф ZPAS OTS состав которого показан на рисунке 1.2.</p>
-                <img src="p4.jpg" class="center-img1" />
+                <a href="p4.jpg" data-fancybox><img src="p4.jpg" class="center-img1" /></a>
                 <h4>Рисунок 1.2 - Состав шкафа ZPAS OTS</h4>
                 <br />
                 <p><b>1.3 Технические характеристики</b></p>
@@ -244,7 +257,7 @@
                   подключены все абоненты системы связи.
                 </p>
 
-                <img src="p5.jpg" class="center-img2" />
+                <a href="p5.jpg" data-fancybox><img src="p5.jpg" class="center-img2" /></a>
                 <h4>
                   Рисунок 1.3 - Структурная схема
                   <abbr title="Комплекс Аппаратуры оперативно-командной связи"
@@ -253,7 +266,7 @@
                 </h4>
                 <br />
 
-                <img src="bvs.jpg" class="center-img3" />
+                <a href="bvs.jpg" data-fancybox><img src="bvs.jpg" class="center-img3" /></a>
                 <h4>
                   Рисунок 1.4 - Блок внешних связей «Грань-<abbr
                     title="Блок внешних связей"
@@ -262,7 +275,7 @@
                 </h4>
                 <br />
 
-                <img src="des.jpg" class="center-img3" />
+                <a href="des.jpg" data-fancybox><img src="des.jpg" class="center-img3" /></a>
                 <h4>Рисунок 1.5 - Сетевой коммутатор DES-1016R</h4>
                 <br />
 
@@ -286,7 +299,7 @@
                   <abbr title="Контроллеры интерфейсов">КИ</abbr>).
                 </p>
 
-                <img src="ki.jpg" class="center-img3" />
+                <a href="ki.jpg" data-fancybox><img src="ki.jpg" class="center-img3" /></a>
                 <h4>
                   Рисунок 1.6 - Универсальные контроллеры интерфейсов
                   «Грань-<abbr title="Контроллеры интерфейсов">КИ</abbr>
