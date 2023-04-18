@@ -6,7 +6,7 @@ window.addEventListener('DOMContentLoaded', () => {
       document.querySelector("#login").value == "администратор" &&
       document.querySelector("#password").value == "777"
     ) {
-      window.location.href = "/0.html";
+      window.location.href = "0.html";
     } else document.querySelector('.errorMsg').innerHTML = 'Проверьте введенные данные';
   });  
 })
